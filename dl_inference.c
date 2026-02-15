@@ -11,3 +11,9 @@ int main() {
     printf("모델 초기화 완료: %s\n", yolo.model_name);
     return 0;
 }
+// 기존 구조체 선언 아래에 추가해 보게
+void relu(float *x) {
+    if (*x < 0) {
+        *x = 0;
+    }
+}
