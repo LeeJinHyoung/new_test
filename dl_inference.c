@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 // 딥러닝 모델 설정 구조체
 typedef struct {
     char model_name[20];
