@@ -10,6 +10,7 @@ int main() {
     DL_Model yolo = {"YOLOv8_Lite", 16};
     int timeout = 500;
     printf("모델 초기화 완료: %s\n", yolo.model_name);
+    printif("추론 시작\n");
     return 0;
 }
 // 기존 구조체 선언 아래에 추가해 보게
