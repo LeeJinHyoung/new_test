@@ -1,0 +1,5 @@
+{
+	"model": "YOLOv8"
+	"epochs": 100,
+	"batch_size": 16
+}
