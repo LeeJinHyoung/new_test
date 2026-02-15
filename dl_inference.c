@@ -8,7 +8,7 @@ typedef struct {
 
 int main() {
     DL_Model yolo = {"YOLOv8_Lite", 16};
-    int timeout = 100;
+    int timeout = 500;
     printf("모델 초기화 완료: %s\n", yolo.model_name);
     return 0;
 }
